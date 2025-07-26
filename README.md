@@ -114,6 +114,10 @@ Codes validated in simulation, tested indoor and then launched on water bodies.
 ### Fail-safe Control of the USV with Acuation Failure
 Control method developed in case of one side of the USV's actuators malfunctioning.
 
+Utilizing the existance of limit cycle of the system, coordinate system can be converted into polar coordinates. By converting the coordinate system number of the states can be reduced therefore the system becomes controllable. Applying model predictive control on the transformed coordinate system showed better performance and stability than other methods.
+
+Refer to my thesis for more details ![Master's thesis](images/석사논문_홍석현.pdf)
+
 ---
 
 ## 🚜 Excavator Simulation & Field Test
@@ -123,7 +127,7 @@ Control method developed in case of one side of the USV's actuators malfunctioni
 - Simulated force feedback and terrain interaction
 
 ![Excavator Demo](./media/excavator.gif)  
-📹 [▶️ Watch full video](https://youtu.be/YOUR_VIDEO_LINK)
+📹 [▶️ Watch full video](https://youtu.be/nSXMK3pkZn8)
 
 ---
 
