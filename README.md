@@ -3,6 +3,9 @@
 Hanyang University Department of Automotive Engineering senior project
 Generated URDF of Differential-drive robot and referred to sjtu_drone
 
+UGV control diagram
+![Demo](images/UGV/UGV_diagram.png)
+
 
 [Github Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
 
@@ -29,16 +32,3 @@ A force-based tracked excavator built in Unity using custom rigid body physics.
 ![Excavator Demo](./media/excavator.gif)
 
 [▶️ Watch full video](https://youtu.be/YOUR_VIDEO_LINK)
-
-## 🛠️ Gripper System
-A gripper with physics-based grasping and adaptive joints.
-
-![Gripper Demo](./media/gripper.gif)
-
-[▶️ YouTube](https://youtu.be/YOUR_VIDEO_LINK)
-
-## 🚀 ROS2 Project: Autonomous Navigation
-Implemented wall-time benchmarking and reliable QoS communication in ROS2.
-
-[📄 Source Code](https://github.com/yourname/ros2-autonav)
-[▶️ Video](https://youtu.be/YOUR_VIDEO_LINK)
