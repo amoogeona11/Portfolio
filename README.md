@@ -62,11 +62,33 @@ UGV control system diagram:
 
 ---
 
+## 📱 Sensor Fusion
+Exploited Error-state Kalman Filter
+### Camera-IMU sensor fusion
+Prediction: IMU integration (position, velocity, orientation)
+Correction: Pose estimation using Aruco marker (position, orientaion)
+Developed for Indoor experiment
+
+### GPS-IMU sensor fusion
+Prediction: IMU integration (position, velocity, orientation)
+Correction: Dual RTK-GPS considering extrinsic with the USV (position)
+Developed for Outdoor experiment
+
 ## 🚤 USV Simulation & Field Test
 Unmanned surface vessel (USV) simulation and real-world testing.  
+
 ### Lake Cleaning USV
 
+![USV Platform](images/USV/USV.png)
 
+Custom designed and built platform
+System Specifications:
+- Intel Nuc: i5-8th gen
+- RTK-GPS (SMC-2000/SMC+)
+- Velodyne Puck (VLP-16)
+- Pixhawk
+- Diskdrive actuator
+- Teensy 4.0
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
