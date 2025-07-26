@@ -67,12 +67,12 @@ Exploited Error-state Kalman Filter
 ### Camera-IMU sensor fusion
 Prediction: IMU integration (position, velocity, orientation)
 Correction: Pose estimation using Aruco marker (position, orientaion)
-Developed for Indoor experiment
+**Developed for Indoor experiment**
 
 ### GPS-IMU sensor fusion
 Prediction: IMU integration (position, velocity, orientation)
 Correction: Dual RTK-GPS considering extrinsic with the USV (position)
-Developed for Outdoor experiment
+**Developed for Outdoor experiment**
 
 ## 🚤 USV Simulation & Field Test
 Unmanned surface vessel (USV) simulation and real-world testing.  
