@@ -90,7 +90,7 @@ System Properties:
 - Catamaran structure
 - mass: 20.66kg
 - inertia(Iz): 1.37 kgm^2
-- size: 800*640*220(mm)
+- size: 800 x 640 x 220(mm)
 - materials: FRP(body), Aluminum, 3D printed parts
 
 System Specifications:
