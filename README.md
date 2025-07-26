@@ -1,6 +1,9 @@
 # Seokhyun Hong's Robotics Portfolio 🤖
 ## 🚗 UGV Simulation
+Hanyang University Department of Automotive Engineering senior project
+Generated URDF of Differential-drive robot and referred to sjtu_drone
 [Github Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
+
 ### A* implementation
 Grid map based A* algorithm
 Built with ros melodic, c++, Gazebo
