@@ -68,7 +68,8 @@ Exploited Error-state Kalman Filter
 - Prediction: IMU integration (position, velocity, orientation)
 - Correction: Pose estimation using Aruco marker (position, orientaion)
 
-**Developed for Indoor experiment**
+**Developed for Indoor experiment**📹 [▶️ Watch video](https://youtu.be/gelpOx11oOY)
+
 
 ### GPS-IMU sensor fusion
 - Prediction: IMU integration (position, velocity, orientation)
@@ -83,7 +84,14 @@ Unmanned surface vessel (USV) simulation and real-world testing.
 
 ![USV Platform](images/USV/USV.png)
 
-Custom designed and built platform
+**Custom designed and built platform**
+System Properties:
+- Catamaran structure
+- mass: 20.66kg
+- inertia(Iz): 1.37 kgm^2
+- size: 800*640*220(mm)
+- materials: FRP(body), Aluminum, 3D printed parts
+
 System Specifications:
 - Intel Nuc: i5-8th gen
 - RTK-GPS (SMC-2000/SMC+)
@@ -91,6 +99,12 @@ System Specifications:
 - Pixhawk
 - Diskdrive actuator
 - Teensy 4.0
+- LTE Router
+
+Given cleaning area as a polygon, optimal coverage path is generated.
+
+Controlled with Velocity field path following algorithm using PID control. (Following velocity field using PID control)
+
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
