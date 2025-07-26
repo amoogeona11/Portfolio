@@ -8,7 +8,7 @@ A collection of robotics projects including UGV, USV, and Excavator simulations 
 **Hanyang University - Department of Automotive Engineering Senior Project**
 
 - Developed a differential-drive robot in URDF
-- Inspired by [sjtu_drone](https://github.com/AtsushiSakai/PythonRobotics)
+- Exploited [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) as a goal point
 - Built using ROS Melodic, Gazebo, and C++
 
 ### 🧩 System Overview
@@ -23,7 +23,7 @@ UGV control system diagram:
 ### 🗺️ A* Path Planning
 
 **Grid map-based A* algorithm implementation**  
-- Custom path planner in C++
+- Implemented in C++
 - ROS node integration with Gazebo simulation
 
 📹 [▶️ Watch video](https://youtu.be/fq33Nl0Rb3Q)
@@ -42,7 +42,7 @@ UGV control system diagram:
 
 ---
 
-### 🧪 Simulation Maps & Performance Comparison
+### 💻 Simulation Maps & Performance Comparison
 
 - Process time (`P_time`): A* computation time  
 - Runtime (`R_time`): Actual time robot takes to reach the goal
@@ -63,11 +63,14 @@ UGV control system diagram:
 ---
 
 ## 🚤 USV Simulation & Field Test
+Unmanned surface vessel (USV) simulation and real-world testing.  
+### Lake Cleaning USV
 
-Autonomous surface vessel (USV) simulation and real-world testing.  
+
+
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
-
+### Fail-safe Control of the USV with Acuation Failure
 ---
 
 ## 🚜 Excavator Simulation & Field Test
