@@ -85,6 +85,7 @@ Unmanned surface vessel (USV) simulation and real-world testing.
 ![USV Platform](images/USV/USV.png)
 
 **Custom designed and built platform**
+
 System Properties:
 - Catamaran structure
 - mass: 20.66kg
@@ -105,15 +106,17 @@ Given cleaning area as a polygon, optimal coverage path is generated.
 
 Controlled with Velocity field path following algorithm using PID control. (Following velocity field using PID control)
 
+Codes validated in simulation, tested indoor and then launched on water bodies.
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
+
 ### Fail-safe Control of the USV with Acuation Failure
 ---
 
 ## 🚜 Excavator Simulation & Field Test
 
-- Tracked excavator robot simulation in **Unity**
+- Tracked excavator simulation in **Unity**
 - Physics-based control using custom rigid-body dynamics
 - Simulated force feedback and terrain interaction
 
