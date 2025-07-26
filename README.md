@@ -133,9 +133,9 @@ Developed a control strategy for one-sided actuator failure:
 
 ## 🚜 Excavator Simulation & Field Test
 
-- Built in **Unity** using custom physics-based engine
 - Simulates tracked excavator dynamics with force feedback
 - Interaction with terrain modeled through rigid body mechanics
+- Built excavator simulator in **Unity**
 
 ![Excavator Demo](./media/excavator.gif)  
 📹 [▶️ Watch Full Demo](https://youtu.be/nSXMK3pkZn8)
