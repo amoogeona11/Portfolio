@@ -116,6 +116,9 @@ Control method developed in case of one side of the USV's actuators malfunctioni
 
 Utilizing the existance of limit cycle of the system, coordinate system can be converted into polar coordinates. By converting the coordinate system number of the states can be reduced therefore the system becomes controllable. Applying model predictive control on the transformed coordinate system showed better performance and stability than other methods.
 
+![Master's thesis](images/USV/sim.gif)
+![Master's thesis](images/USV/real.gif)
+
 Refer to my thesis for more details ![Master's thesis](images/석사논문_홍석현.pdf)
 
 ---
