@@ -1,6 +1,24 @@
 # Seokhyun Hong's Robotics Portfolio 🤖
+## 🚗 UGV Simulation
+[Github Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
+### A* implementation
+Grid map based A* algorithm
+Built with ros melodic, c++, Gazebo
+[▶️ Watch video](https://youtu.be/fq33Nl0Rb3Q)
 
-## 🚜 Excavator Simulation
+### A* path reduction
+Got rid of waypoints that are not likely to collide with obstacles
+[▶️ Watch video](https://youtu.be/kfxGbPY_JvY)
+
+### Obstacle avoidance
+Drive to a global goal while avoiding obstacles using global planning and local planning
+[▶️ Watch video](https://youtu.be/nBfN8mHjhsk)
+
+## 🚤 USV Simulation & Field Test
+[▶️ Watch video](https://youtu.be/kfoeWoRUoZ0)
+[▶️ Watch video](https://youtu.be/pwgTA8-aSr0)
+
+## 🚜 Excavator Simulation & Field Test
 A force-based tracked excavator built in Unity using custom rigid body physics.
 
 ![Excavator Demo](./media/excavator.gif)
