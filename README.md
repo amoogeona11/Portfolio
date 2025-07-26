@@ -4,8 +4,8 @@ Hanyang University Department of Automotive Engineering senior project
 Generated URDF of Differential-drive robot and referred to sjtu_drone
 
 UGV control diagram
-![Demo](images/UGV/UGV_diagram.png)
 
+![Demo](images/UGV/UGV_diagram.png)
 
 [Github Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
 
@@ -17,6 +17,16 @@ Built with ros melodic, c++, Gazebo
 ### A* path reduction
 Got rid of waypoints that are not likely to collide with obstacles
 [▶️ Watch video](https://youtu.be/kfxGbPY_JvY)
+
+![Demo](images/UGV/RPAstar.png)
+
+Maps used in simulation & Comparison
+
+P_time points to Process time and R_time Run time which is an actual taken time for the robot to arrive goal position
+
+![Demo](images/UGV/Map.png)
+![Demo](images/UGV/Table.png)
+
 
 ### Obstacle avoidance
 Drive to a global goal while avoiding obstacles using global planning and local planning
