@@ -1,19 +1,19 @@
 # 🤖 Seokhyun Hong's Robotics Portfolio
 
-A collection of robotics projects including UGV, USV, and Excavator simulations and field tests. Built with ROS, Gazebo, Unity, and custom C++/Python code.
+A portfolio of robotics projects including UGV, USV, and Excavator simulations and field tests. Built using ROS, Gazebo, Unity, and custom C++/Python code.
 
 ---
 
 ## 🚗 UGV Simulation  
-**At Hanyang University - Department of Automotive Engineering Senior Project**
+**Hanyang University – Dept. of Automotive Engineering Senior Project**
 
-- Developed a differential-drive robot in URDF
-- Exploited [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) as a goal point
-- Built using ROS Melodic, Gazebo, and C++
+- Developed a differential-drive robot using URDF
+- Used [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) for goal tracking reference
+- Implemented with **ROS Melodic**, **Gazebo**, and **C++**
 
 ### 🧩 System Overview
 
-UGV control system diagram:  
+UGV control architecture:  
 ![UGV Control Diagram](images/UGV/UGV_diagram.png)
 
 🔗 [GitHub Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
@@ -22,116 +22,124 @@ UGV control system diagram:
 
 ### 🗺️ A* Path Planning
 
-**Grid map-based A* algorithm implementation**  
+- Grid map-based A* algorithm
 - Implemented in C++
-- ROS node integration with Gazebo simulation
+- Integrated as a ROS node in Gazebo simulation
 
-📹 [▶️ Watch video](https://youtu.be/fq33Nl0Rb3Q)
+📹 [▶️ Watch Demo](https://youtu.be/fq33Nl0Rb3Q)
 
 ---
 
 ### ♻️ A* Path Reduction
 
-- Reduced unnecessary waypoints
-- Optimized for smoothness and efficiency
-- Obstacle-aware pruning logic
+- Pruned unnecessary waypoints
+- Improved efficiency and smoothness
+- Maintains obstacle avoidance safety
 
-📹 [▶️ Watch video](https://youtu.be/kfxGbPY_JvY)
+📹 [▶️ Path Reduction Video](https://youtu.be/kfxGbPY_JvY)
 
-![A* Path Reduction](images/UGV/RPAstar.png)
+![Path Reduction](images/UGV/RPAstar.png)
 
 ---
 
-### 💻 Simulation Maps & Performance Comparison
+### 📊 Simulation Maps & Performance
 
-- Process time (`P_time`): A* computation time  
-- Runtime (`R_time`): Actual time robot takes to reach the goal
+- `P_time`: A* computation time  
+- `R_time`: Actual time taken to reach the goal
 
-| Simulation Environment | Performance Table |
-|------------------------|-------------------|
+| Map | Comparison Table |
+|-----|------------------|
 | ![Map](images/UGV/Map.png) | ![Table](images/UGV/Table.png) |
 
 ---
 
 ### 🚧 Obstacle Avoidance
 
-- Combines global path planning with local obstacle avoidance  
-- Dynamic re-planning with live obstacle updates
+- Combines global A* planning with local reactive avoidance
+- Supports live obstacle updates and dynamic re-planning
 
-📹 [▶️ Watch video](https://youtu.be/nBfN8mHjhsk)
+📹 [▶️ Watch Video](https://youtu.be/nBfN8mHjhsk)
 
 ---
 
-## 📱 Sensor Fusion
-Exploited Error-state Kalman Filter
-### Camera-IMU sensor fusion
-- Prediction: IMU integration (position, velocity, orientation)
-- Correction: Pose estimation using Aruco marker (position, orientaion)
+## 🧠 Sensor Fusion (ESKF)
 
-**Developed for Indoor experiment**📹 [▶️ Watch video](https://youtu.be/gelpOx11oOY)
+### 📸 Camera–IMU Fusion
 
+- **Prediction**: Integrated IMU (position, velocity, orientation)
+- **Correction**: Pose estimation using **Aruco markers**
+- Developed for indoor applications
 
-### GPS-IMU sensor fusion
-- Prediction: IMU integration (position, velocity, orientation)
-- Correction: Dual RTK-GPS considering extrinsic with the USV (position)
+📹 [▶️ Indoor Fusion Demo](https://youtu.be/gelpOx11oOY)
 
-**Developed for Outdoor experiment**
+---
+
+### 🛰️ GPS–IMU Fusion
+
+- **Prediction**: Integrated IMU measurements
+- **Correction**: Dual RTK-GPS readings (considering extrinsics to vehicle frame)
+- Developed for outdoor autonomous vehicle control
+
+---
 
 ## 🚤 USV Simulation & Field Test
-Unmanned surface vessel (USV) simulation and real-world testing.  
 
-### Lake Cleaning USV
-**At Seoul National University Interactive & Networked Robotics Laboratory(Prof. Dongjun Lee)**
+### 🧼 Lake-Cleaning USV  
+**Seoul National University – Interactive & Networked Robotics Lab (Prof. Dongjun Lee)**
+
 ![USV Platform](images/USV/USV.png)
 
-**Custom designed and built platform**
+**Custom-built autonomous surface vessel:**
 
-System Properties:
-- Catamaran structure
-- mass: 20.66kg
-- inertia(Iz): 1.37 kgm^2
-- size: 800 x 640 x 220(mm)
-- materials: FRP(body), Aluminum, 3D printed parts
+**System Specs:**
+- Structure: Catamaran
+- Size: 800 × 640 × 220 mm
+- Mass: 20.66 kg
+- Inertia (Iz): 1.37 kg·m²
+- Materials: FRP, aluminum, 3D-printed parts
 
-System Specifications:
-- Intel Nuc: i5-8th gen
-- RTK-GPS (SMC-2000/SMC+)
-- Velodyne Puck (VLP-16)
-- Pixhawk
-- Diskdrive actuator
-- Teensy 4.0
-- LTE Router
+**Electronics:**
+- Intel NUC (i5-8th Gen)
+- Dual RTK-GPS (SMC-2000 / SMC+)
+- Velodyne VLP-16 LiDAR
+- Pixhawk, Diskdrive actuator, Teensy 4.0
+- LTE router for remote access
 
-Given cleaning area as a polygon, optimal coverage path is generated.
-
-Controlled with Velocity field path following algorithm using PID control. (Following velocity field using PID control)
-
-Codes validated in simulation, tested indoor and then launched on water bodies.
+**Highlights:**
+- Polygon-based optimal coverage path generation
+- PID-controlled velocity field following
+- Validated in simulation, tested indoors, and deployed on water
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
 
-### Fail-safe Control of the USV with Acuation Failure
-Control method developed in case of one side of the USV's actuators malfunctioning.
+---
 
-Utilizing the existance of limit cycle of the system, coordinate system can be converted into polar coordinates. By converting the coordinate system number of the states can be reduced therefore the system becomes controllable. Applying model predictive control on the transformed coordinate system showed better performance and stability than other methods.
+### 🛠️ Fail-Safe Control Under Actuation Failure
 
-![Master's thesis](images/USV/sim.gif)
-![Master's thesis](images/USV/real.gif)
+Developed a control strategy for one-sided actuator failure:
 
-Refer to my thesis for more details ![Master's thesis](images/석사논문_홍석현.pdf)
+- Transformed dynamics into **polar coordinates** to reduce system states
+- Applied **Model Predictive Control (MPC)** on reduced polar coordinate system dynamics
+- Achieved improved stability and controllability
+
+**Simulated and Real-World Results:**  
+![Simulation Result](images/USV/sim.gif)  
+![Real-World Result](images/USV/real.gif)
+
+📄 Refer to [Master's Thesis](images/석사논문_홍석현.pdf) for detailed explanation
 
 ---
 
 ## 🚜 Excavator Simulation & Field Test
 
-- Tracked excavator simulation in **Unity**
-- Physics-based control using custom rigid-body dynamics
-- Simulated force feedback and terrain interaction
+- Built in **Unity** using custom physics-based engine
+- Simulates tracked excavator dynamics with force feedback
+- Interaction with terrain modeled through rigid body mechanics
 
 ![Excavator Demo](./media/excavator.gif)  
-📹 [▶️ Watch full video](https://youtu.be/nSXMK3pkZn8)
+📹 [▶️ Watch Full Demo](https://youtu.be/nSXMK3pkZn8)
 
 ---
 
-> ✨ Built with passion for autonomous systems, control, and real-world robotics challenges.
+> 🚀 Passionate about autonomous systems, real-world control, and practical robotics innovation.
