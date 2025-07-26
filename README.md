@@ -1,44 +1,84 @@
-# Seokhyun Hong's Robotics Portfolio 🤖
-## 🚗 UGV Simulation
-Hanyang University Department of Automotive Engineering senior project
-Generated URDF of Differential-drive robot and referred to sjtu_drone
+# 🤖 Seokhyun Hong's Robotics Portfolio
 
-UGV control diagram
+A collection of robotics projects including UGV, USV, and Excavator simulations and field tests. Built with ROS, Gazebo, Unity, and custom C++/Python code.
 
-![Demo](images/UGV/UGV_diagram.png)
+---
 
-[Github Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
+## 🚗 UGV Simulation  
+**Hanyang University - Department of Automotive Engineering Senior Project**
 
-### A* implementation
-Grid map based A* algorithm
-Built with ros melodic, c++, Gazebo
-[▶️ Watch video](https://youtu.be/fq33Nl0Rb3Q)
+- Developed a differential-drive robot in URDF
+- Inspired by [sjtu_drone](https://github.com/AtsushiSakai/PythonRobotics)
+- Built using ROS Melodic, Gazebo, and C++
 
-### A* path reduction
-Got rid of waypoints that are not likely to collide with obstacles
-[▶️ Watch video](https://youtu.be/kfxGbPY_JvY)
+### 🧩 System Overview
 
-![Demo](images/UGV/RPAstar.png)
+UGV control system diagram:  
+![UGV Control Diagram](images/UGV/UGV_diagram.png)
 
-Maps used in simulation & Comparison
+🔗 [GitHub Repository](https://github.com/amoogeona11/Reduced-path-Iterative-A-star)
 
-P_time points to Process time and R_time Run time which is an actual taken time for the robot to arrive goal position
+---
 
-![Demo](images/UGV/Map.png)
-![Demo](images/UGV/Table.png)
+### 🗺️ A* Path Planning
 
+**Grid map-based A* algorithm implementation**  
+- Custom path planner in C++
+- ROS node integration with Gazebo simulation
 
-### Obstacle avoidance
-Drive to a global goal while avoiding obstacles using global planning and local planning
-[▶️ Watch video](https://youtu.be/nBfN8mHjhsk)
+📹 [▶️ Watch video](https://youtu.be/fq33Nl0Rb3Q)
+
+---
+
+### ♻️ A* Path Reduction
+
+- Reduced unnecessary waypoints
+- Optimized for smoothness and efficiency
+- Obstacle-aware pruning logic
+
+📹 [▶️ Watch video](https://youtu.be/kfxGbPY_JvY)
+
+![A* Path Reduction](images/UGV/RPAstar.png)
+
+---
+
+### 🧪 Simulation Maps & Performance Comparison
+
+- Process time (`P_time`): A* computation time  
+- Runtime (`R_time`): Actual time robot takes to reach the goal
+
+| Simulation Environment | Performance Table |
+|------------------------|-------------------|
+| ![Map](images/UGV/Map.png) | ![Table](images/UGV/Table.png) |
+
+---
+
+### 🚧 Obstacle Avoidance
+
+- Combines global path planning with local obstacle avoidance  
+- Dynamic re-planning with live obstacle updates
+
+📹 [▶️ Watch video](https://youtu.be/nBfN8mHjhsk)
+
+---
 
 ## 🚤 USV Simulation & Field Test
-[▶️ Watch video](https://youtu.be/kfoeWoRUoZ0)
-[▶️ Watch video](https://youtu.be/pwgTA8-aSr0)
+
+Autonomous surface vessel (USV) simulation and real-world testing.  
+📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
+📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
+
+---
 
 ## 🚜 Excavator Simulation & Field Test
-A force-based tracked excavator built in Unity using custom rigid body physics.
 
-![Excavator Demo](./media/excavator.gif)
+- Tracked excavator robot simulation in **Unity**
+- Physics-based control using custom rigid-body dynamics
+- Simulated force feedback and terrain interaction
 
-[▶️ Watch full video](https://youtu.be/YOUR_VIDEO_LINK)
+![Excavator Demo](./media/excavator.gif)  
+📹 [▶️ Watch full video](https://youtu.be/YOUR_VIDEO_LINK)
+
+---
+
+> ✨ Built with passion for autonomous systems, control, and real-world robotics challenges.
