@@ -5,7 +5,7 @@ A collection of robotics projects including UGV, USV, and Excavator simulations 
 ---
 
 ## 🚗 UGV Simulation  
-**Hanyang University - Department of Automotive Engineering Senior Project**
+**At Hanyang University - Department of Automotive Engineering Senior Project**
 
 - Developed a differential-drive robot in URDF
 - Exploited [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) as a goal point
@@ -81,7 +81,7 @@ Exploited Error-state Kalman Filter
 Unmanned surface vessel (USV) simulation and real-world testing.  
 
 ### Lake Cleaning USV
-
+**At Seoul National University Interactive & Networked Robotics Laboratory(Prof. Dongjun Lee)**
 ![USV Platform](images/USV/USV.png)
 
 **Custom designed and built platform**
@@ -112,6 +112,8 @@ Codes validated in simulation, tested indoor and then launched on water bodies.
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
 
 ### Fail-safe Control of the USV with Acuation Failure
+Control method developed in case of one side of the USV's actuators malfunctioning.
+
 ---
 
 ## 🚜 Excavator Simulation & Field Test
