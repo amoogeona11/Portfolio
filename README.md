@@ -119,9 +119,11 @@ UGV control architecture:
 
 Developed a control strategy for one-sided actuator failure:
 
+- Control method of USV to stay within shortest range from retrieving point not to float away
 - Transformed dynamics into **polar coordinates** to reduce system states
 - Applied **Model Predictive Control (MPC)** on reduced polar coordinate system dynamics
 - Achieved improved stability and controllability
+
 
 **Simulated and Real-World Results:**  
 ![Simulation Result](images/USV/sim.gif)  
