@@ -137,10 +137,10 @@ Developed a control strategy for one-sided actuator failure:
 
 - Pick and place excavator Gazebo simulation
 - Built automated pulper feeding framework
+- Autonomous excavator field test conducted
 - Built excavator simulator in **Unity**
 
-![Excavator Demo](./media/excavator.gif)  
-📹 [▶️ Watch Full Demo](https://youtu.be/nSXMK3pkZn8)
+**As this project was conducted at my previous company, it cannot be made public due to confidentiality restrictions. If you are interested, I would be glad to provide a video or further details upon request.**
 
 ---
 
