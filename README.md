@@ -4,7 +4,7 @@ A portfolio of robotics projects including UGV, USV, and Excavator simulations a
 
 ---
 
-## 🚗 UGV Simulation  
+## 🚗 UGV Simulation  (09.2021 - 12.2021)
 **Hanyang University – Dept. of Automotive Engineering Senior Project**
 
 - Developed a differential-drive robot using URDF
@@ -62,7 +62,7 @@ UGV control architecture:
 
 ---
 
-## 🧠 Sensor Fusion (ESKF)
+## 🧠 Sensor Fusion (ESKF) (03.2022 - 12.2022)
 
 ### 📸 Camera–IMU Fusion
 
@@ -82,7 +82,7 @@ UGV control architecture:
 
 ---
 
-## 🚤 USV Simulation & Field Test
+## 🚤 USV Simulation & Field Test (03.2022-03.2024)
 
 ### 🧼 Lake-Cleaning USV  
 **Seoul National University – Interactive & Networked Robotics Lab (Prof. Dongjun Lee)**
@@ -115,7 +115,7 @@ UGV control architecture:
 
 ---
 
-### 🛠️ Fail-Safe Control Under Actuation Failure
+### 🛠️ Fail-Safe Control Under Actuation Failure (03.2024 - 11.2024)
 
 Developed a control strategy for one-sided actuator failure:
 
@@ -131,10 +131,10 @@ Developed a control strategy for one-sided actuator failure:
 
 ---
 
-## 🚜 Excavator Simulation & Field Test
+## 🚜 Excavator Simulation & Field Test (03.2025 - )
 
-- Simulates tracked excavator dynamics with force feedback
-- Interaction with terrain modeled through rigid body mechanics
+- Pick and place excavator Gazebo simulation
+- Built automated pulper feeding framework
 - Built excavator simulator in **Unity**
 
 ![Excavator Demo](./media/excavator.gif)  
@@ -142,4 +142,4 @@ Developed a control strategy for one-sided actuator failure:
 
 ---
 
-> 🚀 Passionate about autonomous systems, real-world control, and practical robotics innovation.
+> 🚀 Passionate about autonomous systems, real-world implementation, and practical robotics innovation.
