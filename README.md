@@ -140,7 +140,7 @@ Developed a control strategy for one-sided actuator failure:
 - Autonomous excavator field test conducted
 - Built excavator simulator in **Unity**
 
-**As this project was conducted at my previous company, it cannot be made public due to confidentiality restrictions. If you are interested, I would be glad to provide a video or further details upon request.**
+**As this project was conducted at my current company, it cannot be made public due to confidentiality restrictions. If you are interested, I would be glad to provide a video or further details upon request.**
 
 ---
 
