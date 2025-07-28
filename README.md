@@ -107,8 +107,9 @@ UGV control architecture:
 
 **Highlights:**
 - Polygon-based optimal coverage path generation
-- PID-controlled velocity field following
+- PID-controlled velocity field following utilizing dynamics decomposition
 - Validated in simulation, tested indoors, and deployed on lake
+- Applied model predictive control and sliding mode control, but the result is omitted due to insignificant improvements
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
