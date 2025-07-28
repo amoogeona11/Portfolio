@@ -135,7 +135,7 @@ Developed a control strategy for one-sided actuator failure:
 
 ## 🚜 Excavator Simulation & Field Test (03.2025 - )
 
-- Pick and place excavator Gazebo simulation
+- Pick and place excavator Gazebo simulation (built within 2 weeks)
 - Built automated pulper feeding framework
 - Autonomous excavator field test conducted
 - Built excavator simulator in **Unity**
