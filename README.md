@@ -108,7 +108,7 @@ UGV control architecture:
 **Highlights:**
 - Polygon-based optimal coverage path generation
 - PID-controlled velocity field following
-- Validated in simulation, tested indoors, and deployed on water
+- Validated in simulation, tested indoors, and deployed on lake
 
 📹 [Simulation Video](https://youtu.be/kfoeWoRUoZ0)  
 📹 [Field Test Video](https://youtu.be/pwgTA8-aSr0)
