@@ -8,7 +8,7 @@ A portfolio of robotics projects including UGV, USV, and Excavator simulations a
 **Hanyang University – Dept. of Automotive Engineering Senior Project**
 
 - Developed a differential-drive robot using URDF
-- Used [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) for goal tracking reference
+- Utilized [sjtu_drone](https://github.com/tahsinkose/sjtu-drone) for goal tracking reference
 - Implemented with **ROS Melodic**, **Gazebo**, and **C++**
 
 ### 🧩 System Overview
